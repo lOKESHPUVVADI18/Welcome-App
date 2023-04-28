@@ -1,0 +1,48 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-color: #1e293b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 70%;
+}
+.heading {
+  color: #f0bb03;
+  font-size: 32px;
+  font-family: 'Bree Serif';
+  font-weight: 600;
+}
+.para {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Bree Serif';
+}
+
+.button {
+  background-color: #ffffff;
+  color: #1e293b;
+  font-size: 14px;
+  height: 30px;
+  width: 110px;
+  font-family: 'Bree Serif';
+  border-radius: 5px;
+}
+
+@media screen and(min-width:768px) {
+  .heading {
+    font-size: 48px;
+  }
+  .para {
+    font-size: 24px;
+  }
+}
